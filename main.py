@@ -9,9 +9,9 @@ def sigma(upper_point,down_point,power):
     return sum
 
 def main():
-    upper_point=6
-    down_point = 3
-    power = 2
+    upper_point=6 #end point
+    down_point = 3 #start point
+    power = 2 
     print(sigma(upper_point,down_point,power))
 
 
